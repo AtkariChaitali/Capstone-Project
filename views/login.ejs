@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://cdn.jsdelivr.net/npm/promise-polyfill9/dist/polyfill.js"></script>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Login Form </title>
+		<style>body{
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 16px;
+			background-color:rgb(148, 201, 222);
+		} 
+		.login-form {
+			width: 300px;
+			margin: 0 auto;
+			font-family: Tahoma, Geneva, sans-serif;
+		}
+		.login-form h1 {
+			text-align: center;
+			color: #4d4d4d;
+			font-size: 24px;
+			padding: 20px 0 20px 0;
+		}
+		.login-form input[type="password"],
+		.login-form input[type="text"] {
+			width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+		}
+		.login-form input[type="submit"] {
+			width: 100%;
+			padding: 15px;
+			background-color: #535b63;
+			border: 0;
+			box-sizing: border-box;
+			cursor: pointer;
+			font-weight: bold;
+			color: #ffffff;
+		}/* button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+	background-color: green;
+	color: white;
+} */
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  width: 150px;
+    background-color: #535b63;
+    padding: 5px 10px 10px 5px;
+  text-align: center;
+} 
+
+.social .fb{
+  margin-left: 20px;
+  height: 40px;
+  color: #ffffff;
+  padding-top: 10px;
+  width: 180px;
+  font-size: 15px;
+}
+.social .go{
+  height: 40px;
+  color: #ffffff;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.social .go:hover{
+  background-color: blue;
+  color: #fff;
+}
+  .social .fb:hover{
+  background-color: red;
+/*   color: #080710;
+ */color: #fff;
+}
+	 
+		</style>
+	</head>
+	<body>    <div class="main-wrapper  account-wrapper">
+		<div class="account-page">
+            <div class="account-center">
+                <div class="account-box">
+		<div class="login-form">
+			<h1>Login Form</h1>
+			<form action="" method="POST">
+				<div class="account-logo">
+					<a href="index-2.html"><img src="assets/img/logo-dark.png" alt=""></a>
+				</div>
+				<input type="text" name="username" placeholder="Username" >
+				<input type="password" name="password" placeholder="Password" >
+				<input type="submit" value="Log In" onclick="click()">
+				<script>
+					function click(){
+						swal ("You are logged in");
+					}
+				</script>
+				<br>
+
+			<div class="social">
+					<div class="go">
+					<a href="/signup">Sign Up</a>
+				</div><div class="fb">
+					<a href="http://localhost:3000/resetpassword">Forget Password</a>
+				</div></div>	
+				
+				
+			</form>
+		</div>
+		<div>
+			
+		</div></div></div></div></div>
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+	</body>
+</html>
+
